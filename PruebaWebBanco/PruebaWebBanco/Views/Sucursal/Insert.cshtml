@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Insertar nueva Sucursal";
+}
+@model PruebaWebBanco.Models.Sucursal
+
+<h2>Insertar Banco</h2>
+@using (Html.BeginForm(FormMethod.Post))
+{
+    
+    @Html.Label("Nombre de la Sucursal")
+    @Html.TextBoxFor(model => model.xNombre) <br />
+
+    @Html.Label("Dirección")
+    @Html.TextBoxFor(model => model.xDireccion) <br />
+
+    <button>Submit</button>
+
+
+}

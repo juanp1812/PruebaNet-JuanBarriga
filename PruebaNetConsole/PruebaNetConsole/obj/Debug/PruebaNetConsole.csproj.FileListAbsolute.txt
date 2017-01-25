@@ -1,0 +1,6 @@
+D:\JP\Proyectos\PruebaNet\PruebaNetConsole\PruebaNetConsole\bin\Debug\PruebaNetConsole.exe.config
+D:\JP\Proyectos\PruebaNet\PruebaNetConsole\PruebaNetConsole\bin\Debug\PruebaNetConsole.exe
+D:\JP\Proyectos\PruebaNet\PruebaNetConsole\PruebaNetConsole\bin\Debug\PruebaNetConsole.pdb
+D:\JP\Proyectos\PruebaNet\PruebaNetConsole\PruebaNetConsole\obj\Debug\PruebaNetConsole.exe
+D:\JP\Proyectos\PruebaNet\PruebaNetConsole\PruebaNetConsole\obj\Debug\PruebaNetConsole.pdb
+D:\JP\Proyectos\PruebaNet\PruebaNetConsole\PruebaNetConsole\obj\Debug\PruebaNetConsole.csprojResolveAssemblyReference.cache

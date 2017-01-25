@@ -1,0 +1,44 @@
+﻿@model PruebaWebBanco.Models.OrdenesPago
+
+<div style="color:Black; background-color:White;">
+    <table class="grid">
+        <thead>
+            <tr class="gvHeading">
+                <th scope="col">
+                    <a href="/?sort=iBanco&amp;sortdir=ASC">Nro Orden Pago</a>
+                </th>
+                <th scope="col">
+                    <a href="/?sort=xNombreBanco&amp;sortdir=ASC">Monto</a>
+                </th>
+                <th scope="col">
+                    <a href="/?sort=xDireccion&amp;sortdir=ASC">Moneda</a>
+                </th>
+                <th scope="col">
+                    <a href="/?sort=dFechaRegistro&amp;sortdir=ASC">Estado</a>
+                </th>
+                <th scope="col">
+                    <a href="/?sort=dFechaRegistro&amp;sortdir=ASC">Fecha de Pago</a>
+                </th>
+                <th scope="col">
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.lstOrderVenta)
+                {
+                    <tr class="gvRow">
+                        <td>@item.iOrdenPago</td>
+                        <td>@item.fMonto</td>
+                        <td>@item.xMoneda</td>
+                        <td>@item.xDescripcionEstado</td>
+                        <td>@item.dFechaPago</td>
+                        <td>
+                            @Html.ActionLink("Editar", "Edit", new { id = item.iOrdenPago })
+                        </td>
+                    </tr>
+            }
+        </tbody>
+    </table>
+
+
+</div>

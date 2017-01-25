@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Insertar Orden de Pago";
+}
+@model PruebaWebBanco.Models.OrdenPago
+
+<h2>Insertar Banco</h2>
+@using (Html.BeginForm(FormMethod.Post))
+{
+    
+    @Html.Label("Monto")
+    @Html.TextBoxFor(model => model.fMonto) <br />
+
+    @Html.Label("iTipoMoneda")    
+    @Html.DropDownList("TipoMonedaList")
+    <br/>    
+    <br/>    
+    <br/>    
+    <button>Submit</button>
+
+
+}

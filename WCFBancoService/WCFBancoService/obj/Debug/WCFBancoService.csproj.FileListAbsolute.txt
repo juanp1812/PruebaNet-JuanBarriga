@@ -1,0 +1,11 @@
+D:\JP\Proyectos\PruebaNet\WCFBancoService\WCFBancoService\bin\WCFBancoService.dll
+D:\JP\Proyectos\PruebaNet\WCFBancoService\WCFBancoService\bin\WCFBancoService.pdb
+D:\JP\Proyectos\PruebaNet\WCFBancoService\WCFBancoService\obj\Debug\WCFBancoService.csprojResolveAssemblyReference.cache
+D:\JP\Proyectos\PruebaNet\WCFBancoService\WCFBancoService\obj\Debug\WCFBancoService.dll
+D:\JP\Proyectos\PruebaNet\WCFBancoService\WCFBancoService\obj\Debug\WCFBancoService.pdb
+D:\JP\Proyectos\PruebaNet\WCFBancoService\WCFBancoService\bin\Entidades.dll
+D:\JP\Proyectos\PruebaNet\WCFBancoService\WCFBancoService\bin\Logica.dll
+D:\JP\Proyectos\PruebaNet\WCFBancoService\WCFBancoService\bin\Datos.dll
+D:\JP\Proyectos\PruebaNet\WCFBancoService\WCFBancoService\bin\Entidades.pdb
+D:\JP\Proyectos\PruebaNet\WCFBancoService\WCFBancoService\bin\Logica.pdb
+D:\JP\Proyectos\PruebaNet\WCFBancoService\WCFBancoService\bin\Datos.pdb

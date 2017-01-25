@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Edit";
+}
+@model  PruebaWebBanco.Models.OrdenPago
+
+<h2>Edit</h2>
+@using (Html.BeginForm(FormMethod.Post))
+{
+    @Html.HiddenFor(model => model.iOrdenPago)
+    @Html.LabelFor(model => model.fMonto)
+    @Html.EditorFor(model => model.fMonto)<br />
+    @Html.Label("Tipo Moneda")    
+    @Html.DropDownList("TipoMonedaList")
+    <br/><br/>
+    @Html.Label("Estado")    
+    @Html.DropDownList("EstadoList")
+    <br/><br/>
+    <input type="submit" value="Update" />
+}

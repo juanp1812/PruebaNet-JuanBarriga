@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Edit";
+}
+@model  PruebaWebBanco.Models.Banco
+
+<h2>Edit</h2>
+@using (Html.BeginForm(FormMethod.Post))
+{
+    @Html.HiddenFor(model=>model.iBanco)
+    @Html.LabelFor(model=>model.xNombreBanco)
+        @Html.EditorFor(model => model.xNombreBanco)<br />
+    @Html.LabelFor(model=>model.xDireccion)
+        @Html.EditorFor(model => model.xDireccion)<br />
+   
+    <input type="submit" value="Update" />
+}

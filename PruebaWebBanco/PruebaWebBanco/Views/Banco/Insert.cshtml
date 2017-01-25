@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Insertar Banco";
+}
+@model PruebaWebBanco.Models.Banco
+
+<h2>Insertar Banco</h2>
+@using (Html.BeginForm(FormMethod.Post))
+{
+    @Html.Label("Nombre del Banco")
+    @Html.TextBoxFor(model=>model.xNombreBanco) <br />
+    
+    @Html.Label("Dirección")
+    @Html.TextBoxFor(model => model.xDireccion) <br />
+    
+    <button>Submit</button>
+     
+
+}

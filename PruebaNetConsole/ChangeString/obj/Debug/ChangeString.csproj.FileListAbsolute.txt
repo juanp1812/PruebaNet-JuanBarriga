@@ -1,0 +1,5 @@
+D:\JP\Proyectos\PruebaNet\PruebaNetConsole\ChangeString\bin\Debug\ChangeString.exe.config
+D:\JP\Proyectos\PruebaNet\PruebaNetConsole\ChangeString\bin\Debug\ChangeString.exe
+D:\JP\Proyectos\PruebaNet\PruebaNetConsole\ChangeString\bin\Debug\ChangeString.pdb
+D:\JP\Proyectos\PruebaNet\PruebaNetConsole\ChangeString\obj\Debug\ChangeString.exe
+D:\JP\Proyectos\PruebaNet\PruebaNetConsole\ChangeString\obj\Debug\ChangeString.pdb

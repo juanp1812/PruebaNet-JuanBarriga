@@ -1,0 +1,42 @@
+﻿@model PruebaWebBanco.Models.Sucursales
+
+<div style="color:Black; background-color:White;">
+    <table class="grid">
+        <thead>
+            <tr class="gvHeading">
+                <th scope="col">
+                    <a href="/?sort=iBanco&amp;sortdir=ASC">Banco ID</a>
+                </th>
+                <th scope="col">
+                    <a href="/?sort=xNombreBanco&amp;sortdir=ASC">Nombre del Banco</a>
+                </th>
+                <th scope="col">
+                    <a href="/?sort=xDireccion&amp;sortdir=ASC">Dirección</a>
+                </th>
+                <th scope="col">
+                    <a href="/?sort=dFechaRegistro&amp;sortdir=ASC">Fecha Registro</a>
+                </th>
+                <th scope="col">
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.SucursalList)
+                {
+                    <tr class="gvRow">
+                        <td>@item.iSucursal</td>
+                        <td>@item.xNombre</td>
+                        <td>@item.xDireccion</td>
+                        <td>@item.dFechaRegistro</td>
+                        <td>
+                            @Html.ActionLink("Editar", "Edit", new { id = item.iSucursal }) |
+                            @Html.ActionLink("Borrar", "Eliminar", new { id = item.iSucursal }) |
+                            @Html.ActionLink("Ver Ordenes de Pago", "Index", "OrdenPago",new { id = item.iSucursal }, null)
+                        </td>
+                    </tr>
+            }
+        </tbody>
+    </table>
+
+
+</div>

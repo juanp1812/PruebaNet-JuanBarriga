@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<div style="padding:7px 0;">
+    @Html.ActionLink("Agregar nuevo Banco", "Insert")
+</div>
+@{       
+   var grid = new WebGrid(source:Model,rowsPerPage: 4);
+}
+
+<div style="color:Blue; background-color:White;">
+    @grid.GetHtml(
+       tableStyle: "grid",
+         fillEmptyRows: false,
+         headerStyle: "gvHeading",
+         alternatingRowStyle: "gvAlternateRow",
+         rowStyle: "gvRow",
+         footerStyle: "gvFooter",
+         mode: WebGridPagerModes.All,
+         firstText: "<< First",
+         previousText: "< Prev",
+         nextText: "Next >",
+         lastText: "Last >>",
+         columns: new[] {
+         grid.Column("iBanco",header: "Banco ID"),
+         grid.Column("xNombreBanco",header: "Nombre del Banco"),
+         grid.Column("xDireccion",header: "Dirección"),
+         grid.Column("dFechaRegistro", header: "Fecha Registro"),
+                     
+        grid.Column(
+       "",
+        header: "",
+       format: @<text>
+                   @Html.ActionLink("Editar", "Edit", new { id = item.iBanco })
+                |
+                    @Html.ActionLink("Borrar", "Eliminar", new { id = item.iBanco })
+                |
+                    @Html.ActionLink("Ver Sucursales", "Index", "Sucursal", new { id = item.iBanco }, null)
+               </text>
+ )    
+     })
+   
+
+</div>

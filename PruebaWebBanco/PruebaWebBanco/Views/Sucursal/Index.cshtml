@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+@model  PruebaWebBanco.Models.Sucursales
+
+
+<h2>
+    @("Sucursales del Banco "  + Model.xNombreBanco)
+</h2>
+
+<div style="padding:7px 0;">
+    <div style="float: left;">
+        @Html.ActionLink("Agregar nueva Sucursal", "Insert")
+    </div>    
+    <div style="float: right;">        
+        @Html.ActionLink("Regresar a Bancos", "Index", "Banco", null, null)
+    </div>    
+</div>
+
+@Html.Partial("SucursalList")

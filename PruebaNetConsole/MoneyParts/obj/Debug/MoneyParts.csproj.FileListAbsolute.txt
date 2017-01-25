@@ -1,0 +1,6 @@
+D:\PruebaNetJuanBarriga\PruebaNetConsole\MoneyParts\bin\Debug\MoneyParts.exe.config
+D:\PruebaNetJuanBarriga\PruebaNetConsole\MoneyParts\bin\Debug\MoneyParts.exe
+D:\PruebaNetJuanBarriga\PruebaNetConsole\MoneyParts\bin\Debug\MoneyParts.pdb
+D:\PruebaNetJuanBarriga\PruebaNetConsole\MoneyParts\obj\Debug\MoneyParts.csprojResolveAssemblyReference.cache
+D:\PruebaNetJuanBarriga\PruebaNetConsole\MoneyParts\obj\Debug\MoneyParts.exe
+D:\PruebaNetJuanBarriga\PruebaNetConsole\MoneyParts\obj\Debug\MoneyParts.pdb

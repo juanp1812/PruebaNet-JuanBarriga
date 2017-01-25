@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+@model  PruebaWebBanco.Models.OrdenesPago
+
+
+<h2>
+    @("Ordenes registradas en la sucursal"  + Model.xSucursal)
+</h2>
+
+<div style="padding:7px 0;">
+    <div style="float: left;">
+        @Html.ActionLink("Insertar Nueva Orden de Pago", "Insert")
+    </div>    
+    <div style="float: right;">        
+        @Html.ActionLink("Regresar a Sucusales", "Index", "Sucursal", new { id = Model.iBanco }, null)
+    </div>    
+</div>
+
+@Html.Partial("OrdenesList")

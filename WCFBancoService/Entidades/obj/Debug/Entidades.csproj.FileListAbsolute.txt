@@ -1,0 +1,4 @@
+D:\JP\Proyectos\PruebaNet\WCFBancoService\Entidades\bin\Debug\Entidades.dll
+D:\JP\Proyectos\PruebaNet\WCFBancoService\Entidades\bin\Debug\Entidades.pdb
+D:\JP\Proyectos\PruebaNet\WCFBancoService\Entidades\obj\Debug\Entidades.dll
+D:\JP\Proyectos\PruebaNet\WCFBancoService\Entidades\obj\Debug\Entidades.pdb
